@@ -66,7 +66,7 @@ a:hover {
 }
 
 h1,
-h2,
+/* h2, */
 h3,
 h31,
 h4,
@@ -76,14 +76,29 @@ h6 {
   font-family: var(--heading-font);
 }
 
+@font-face {
+  font-family: 'Beyond-Wonderland';
+  src: url('/GPR/assets/font/Beyond-Wonderland.ttf') format('opentype');
+}
+
+h2 {
+  font-family: 'Beyond-Wonderland'; /* Fallback to sans-serif */
+  text-shadow: 
+  0 0 5px #ffffff,   /* Inner glow */
+  0 0 10px #ffffff,  /* First outer glow */
+  0 0 20px #ff00ff,  /* Second outer glow */
+  0 0 30px #ff00ff;  /* Final intense glow */
+color: #ffffff;      /* Font color */
+}
+
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(255, 255, 255, 0);
+  --background-color: rgba(0, 0, 0, 0);
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 15px 0;
+  padding: 8px 0;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -538,11 +553,13 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 20px 0 100px 0 ;
   scroll-margin-top: 90px;
   overflow: clip;
   position: relative;
 }
+
+
 
 @media (max-width: 1199px) {
 
@@ -550,6 +567,7 @@ section,
   .section {
     scroll-margin-top: 66px;
   }
+
 }
 
 /*--------------------------------------------------------------
@@ -562,8 +580,8 @@ section,
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 80px;
+  font-weight: 200;
   margin-bottom: 15px;
 }
 
@@ -584,9 +602,12 @@ section,
 }
 
 .hero h2 {
-  margin: 0;
+  /* margin: 0;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 700; */
+  font-size: 100px;
+  font-weight: 200;
+  margin-bottom: 15px;
 }
 
 .hero p {
@@ -926,7 +947,7 @@ section,
 }
 .payment .payment-card h31 {
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0.3rem;
 }
 
@@ -969,7 +990,7 @@ section,
 
 .payment .payment-card h5 {
   font-size: 0.7rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.8rem;
 }
 
 .payment .payment-card .features-list {
