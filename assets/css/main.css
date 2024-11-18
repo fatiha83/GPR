@@ -553,7 +553,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 20px 0 100px 0 ;
+  padding: 20px 0 200px 0 ;
   scroll-margin-top: 90px;
   overflow: clip;
   position: relative;
