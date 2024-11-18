@@ -68,6 +68,7 @@ a:hover {
 h1,
 h2,
 h3,
+h31,
 h4,
 h5,
 h6 {
@@ -869,7 +870,7 @@ section,
 }
 
 .payment .payment-card:hover {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.555);
 }
 
 .payment .payment-card.popular {
@@ -923,6 +924,11 @@ section,
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
+.payment .payment-card h31 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
 
 .payment .payment-card .price {
   margin-bottom: 1.5rem;
@@ -953,6 +959,16 @@ section,
 
 .payment .payment-card h4 {
   font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.payment .payment-card h4 {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.payment .payment-card h5 {
+  font-size: 0.7rem;
   margin-bottom: 1rem;
 }
 
