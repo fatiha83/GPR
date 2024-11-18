@@ -80,10 +80,10 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(255, 255, 255, 0);
+  --background-color: rgba(0, 0, 0, 0);
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 15px 0;
+  padding: 8px 0;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -926,7 +926,7 @@ section,
 }
 .payment .payment-card h31 {
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0.3rem;
 }
 
@@ -969,7 +969,7 @@ section,
 
 .payment .payment-card h5 {
   font-size: 0.7rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.8rem;
 }
 
 .payment .payment-card .features-list {
