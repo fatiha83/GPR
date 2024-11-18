@@ -843,9 +843,9 @@ section,
 
 
 /*--------------------------------------------------------------
-# Payment Section
+# payment Section
 --------------------------------------------------------------*/
-.Payment-bg {
+.payment-bg {
   background: url('/assets/img/paymentbg.png') no-repeat center center;
   background-size: cover; /* Ensures the image covers the section without distortion */
   background-attachment: fixed; /* Keeps the image stationary while scrolling */
@@ -853,7 +853,13 @@ section,
   position: relative; /* Allows overlay adjustments */
 }
 
-.Payment .Payment-card {
+.description-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.payment .payment-card {
   height: 100%;
   padding: 2rem;
   background: var(--surface-color);
@@ -862,44 +868,44 @@ section,
   position: relative;
 }
 
-.Payment .Payment-card:hover {
+.payment .payment-card:hover {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.Payment .Payment-card.popular {
+.payment .payment-card.popular {
   background: var(--accent-color);
   color: var(--contrast-color);
 }
 
-.Payment .Payment-card.popular h3,
-.Payment .Payment-card.popular h4 {
+.payment .payment-card.popular h3,
+.payment .payment-card.popular h4 {
   color: var(--contrast-color);
 }
 
-.Payment .Payment-card.popular .price .currency,
-.Payment .Payment-card.popular .price .amount,
-.Payment .Payment-card.popular .price .period {
+.payment .payment-card.popular .price .currency,
+.payment .payment-card.popular .price .amount,
+.payment .payment-card.popular .price .period {
   color: var(--contrast-color);
 }
 
-.Payment .Payment-card.popular .features-list li {
+.payment .payment-card.popular .features-list li {
   color: var(--contrast-color);
 }
 
-.Payment .Payment-card.popular .features-list li i {
+.payment .payment-card.popular .features-list li i {
   color: var(--contrast-color);
 }
 
-.Payment .Payment-card.popular .btn-light {
+.payment .payment-card.popular .btn-light {
   background: var(--contrast-color);
   color: var(--accent-color);
 }
 
-.Payment .Payment-card.popular .btn-light:hover {
+.payment .payment-card.popular .btn-light:hover {
   background: color-mix(in srgb, var(--contrast-color), transparent 10%);
 }
 
-.Payment .Payment-card .popular-badge {
+.payment .payment-card .popular-badge {
   position: absolute;
   top: -12px;
   left: 50%;
@@ -913,62 +919,62 @@ section,
   box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.08);
 }
 
-.Payment .Payment-card h3 {
+.payment .payment-card h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
-.Payment .Payment-card .price {
+.payment .payment-card .price {
   margin-bottom: 1.5rem;
 }
 
-.Payment .Payment-card .price .currency {
+.payment .payment-card .price .currency {
   font-size: 1.5rem;
   font-weight: 600;
   vertical-align: top;
   line-height: 1;
 }
 
-.Payment .Payment-card .price .amount {
+.payment .payment-card .price .amount {
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 1;
 }
 
-.Payment .Payment-card .price .period {
+.payment .payment-card .price .period {
   font-size: 1rem;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-.Payment .Payment-card .description {
+.payment .payment-card .description {
   margin-bottom: 2rem;
   font-size: 0.975rem;
 }
 
-.Payment .Payment-card h4 {
+.payment .payment-card h4 {
   font-size: 1.125rem;
   margin-bottom: 1rem;
 }
 
-.Payment .Payment-card .features-list {
+.payment .payment-card .features-list {
   list-style: none;
   padding: 0;
   margin: 0 0 2rem 0;
 }
 
-.Payment .Payment-card .features-list li {
+.payment .payment-card .features-list li {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
 }
 
-.Payment .Payment-card .features-list li i {
+.payment .payment-card .features-list li i {
   color: var(--accent-color);
   margin-right: 0.75rem;
   font-size: 1.25rem;
 }
 
-.Payment .Payment-card .btn {
+.payment .payment-card .btn {
   width: 100%;
   padding: 0.75rem 1.5rem;
   display: flex;
@@ -979,12 +985,12 @@ section,
   border-radius: 50px;
 }
 
-.Payment .Payment-card .btn.btn-primary {
+.payment .payment-card .btn.btn-primary {
   background: var(--accent-color);
   border: none;
   color: var(--contrast-color);
 }
 
-.Payment .Payment-card .btn.btn-primary:hover {
+.payment .payment-card .btn.btn-primary:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
