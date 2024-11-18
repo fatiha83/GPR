@@ -77,12 +77,12 @@ h6 {
 }
 
 @font-face {
-  font-family: 'GraffitiYouth';
+  font-family: 'Beyond-Wonderland';
   src: url('/GPR/assets/font/Beyond-Wonderland.ttf') format('opentype');
 }
 
 h2 {
-  font-family: 'GraffitiYouth'; /* Fallback to sans-serif */
+  font-family: 'Beyond-Wonderland'; /* Fallback to sans-serif */
   text-shadow: 
   0 0 5px #ffffff,   /* Inner glow */
   0 0 10px #ffffff,  /* First outer glow */
@@ -605,7 +605,7 @@ section,
   /* margin: 0;
   font-size: 48px;
   font-weight: 700; */
-  font-size: 80px;
+  font-size: 100px;
   font-weight: 200;
   margin-bottom: 15px;
 }
