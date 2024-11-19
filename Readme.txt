@@ -1,6 +1,6 @@
-Thanks for downloading this template!
+This is our project for CMT322
 
-Template Name: iLanding
-Template URL: https://bootstrapmade.com/ilanding-bootstrap-landing-page-template/
-Author: BootstrapMade.com
+Project name: Glow Paint Run
+project link: 
+Members : Izzah, Anis, Theyvi , Teha
 License: https://bootstrapmade.com/license/
