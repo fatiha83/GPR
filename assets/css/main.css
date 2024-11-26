@@ -82,7 +82,7 @@ h6 {
 
 @font-face {
   font-family: 'Beyond-Wonderland';
-  src: url('/GPR/assets/font/Beyond-Wonderland.ttf') format('opentype');
+  src: url('../font/Beyond-Wonderland.ttf') format('opentype');
 }
 
 h2 {
